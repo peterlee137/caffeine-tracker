@@ -1,0 +1,103 @@
+start.ui
+- button_start -> mainpage.ui
+
+mainpage.ui
+- button_foods -> foodchoice.ui
+- button_records -> records.ui
+- button_ about -> aboutcaffeine.ui
+- button_options -> options.ui
+- label_warning
+- label_today
+- label_total
+
+foodchoice.ui
+- button_back -> mainpage.ui
+- button_coffee -> coffetype.ui
+- button_softDrink -> softdrinktype.ui
+- button_chocolate -> chocolatetype.ui
+- button_energyDrink -> energydrinktype.ui
+- button_tea -> teatype.ui
+- label_today
+- label_total
+
+records.ui
+- button_back -> mainpage.ui
+- label_date1
+- label_date2
+- label_date3
+- label_date4
+- label_date5
+- label_date6
+- label_date7
+- label_today
+- label_total
+
+aboutcaffeine.ui
+- button_back -> mainpage.ui
+- textBrowser
+- label_today
+- label_total
+
+options.ui
+- button_back -> mainpage.ui
+- button_reset -> mainpage.ui
+- button_changeInfo -> mainpage.ui
+
+ageq.ui
+- button_back -> options.ui
+- button_1012 -> mainpage.ui
+- button_1318 -> mainpage.ui
+- button_19 -> mainpage.ui
+
+weightq.ui
+- button_back -> options.ui
+- text_weight
+
+delete.ui
+- button_yes -> mainpage.ui
+- button_no -> mainpage.ui
+
+coffeetype.ui
+- button_back -> foodchoice.ui
+- button_starbucks -> coffeeamount.ui 
+- button_mcCoffee -> coffeeamount.ui 
+- button_dunkin -> coffeeamount.ui 
+
+coffeeamount.ui 
+- button_back -> coffetype.ui
+- text_shot
+- button_submitshot -> mainpage.ui
+
+chocolatetype.ui
+- button_back -> foodchoice.ui
+- button_hersheys -> chocolateamount.ui
+- button_toblerone -> chocolateamount.ui
+- button_snickers -> chocolateamount.ui
+
+chocolateamount.ui
+- button_back -> chocolatetype.ui
+- text_g
+- button_submitG -> mainpage.ui
+
+softdrinktype.ui
+- button_back -> foodchoice.ui
+- button_coke -> drinkamount.ui
+- button_drPepper -> drinkamount.ui
+- button_sprite -> drinkamount.ui
+
+energydrinktype.ui
+- button_back -> foodchoice.ui
+- button_gatorade -> drinkamount.ui
+- button_redbull -> drinkamount.ui
+- button_monster -> drinkamount.ui
+
+teatype.ui
+- button_back -> foodchoice.ui
+- button_greenTea -> drinkamount.ui
+- button_blackTea -> drinkamount.ui
+- button_herbalTea -> drinkamount.ui
+
+drinkamount.ui
+- button_back -> teatype.ui 에서 넘어왔으면 teatype.ui / energydrinktype.ui 에서 넘어왔으면 energydrinktype.ui / softdrinktype.ui 에서 넘어왔으면 softdrinktype.ui
+- text_ml
+- button_submitMl -> mainpage.ui
